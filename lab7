@@ -1,0 +1,74 @@
+import pprint
+
+
+
+def main():
+
+
+
+    Aidens_info = {
+        'name': 'Aiden Hall',
+        'student_id' : '1025776',
+        'Pizza_topping' : [
+            'bacon',
+            'chicken',
+            'onion'            
+        
+        ],
+        'Favourite_movies': [
+            {'movie' : 'The gentlemen',
+             'Genre' : 'Action'
+             },
+             
+             {'movie' : 'Superbad',
+              'genre' : 'comedy'
+             }
+        ]
+    }
+    
+    new_movie = {'movie' : 'The Batman' , 'genre': 'superhero'}
+    Aidens_info['Favourite_movies'].append(new_movie)
+    new_toppings = ['pineapple', 'sausage', 'peppers']
+    add_toppings(Aidens_info, new_toppings)
+   
+    
+    print_name(Aidens_info)
+    
+    
+    
+    
+def add_toppings(Aidens_info, Pizza_topping):
+
+    
+    for b in Pizza_topping:
+        Aidens_info['Pizza_topping'].append(b)
+  
+    for a in Pizza_topping:
+        
+        Aidens_info['Pizza_topping'].sort()
+
+
+
+   
+def print_name(Aidens_info):
+   
+    for i in enumerate(Aidens_info['name']):
+
+        sentence = 'Hi, Jermey, my name is'', ' + Aidens_info['name']
+    print(sentence)
+    for l in enumerate (Aidens_info['student_id']):
+        sentences = "and my student id is "',' ' ' + Aidens_info['student_id']
+    print(sentences)
+
+    for e in (Aidens_info['Pizza_topping']):
+    
+        sentencess += ['My ideal pizza toppings are '',' ' ' + Aidens_info['Pizza_topping']]
+    print(sentencess)
+
+
+
+main()
+    
+
+    
+    
