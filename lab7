@@ -8,7 +8,7 @@ def main():
 
     Aidens_info = {
         'name': 'Aiden Hall',
-        'student_id' : '1025776',
+        'student_id' : 1025776,
         'Pizza_topping' : [
             'bacon',
             'chicken',
@@ -62,7 +62,7 @@ def print_name(Aidens_info):
 
     for e in (Aidens_info['Pizza_topping']):
     
-        sentencess += ['My ideal pizza toppings are '',' ' ' + Aidens_info['Pizza_topping']]
+        sentencess += ['My ideal pizza toppings are '',' ' ' + str(Aidens_info['Pizza_topping']])
     print(sentencess)
 
 
