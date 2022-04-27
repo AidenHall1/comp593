@@ -47,7 +47,7 @@ April 24th
  Started to work set desktop image
 
  This is the code that makes no sense but just works, so I went to lab 9 for reffernece of how to do it.
- All I changed on the code was the path of the image. 
+ All I changed on the code was the path of the image
 
  
 

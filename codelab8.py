@@ -118,7 +118,7 @@ def main():
     label_speed.grid(row=700, column=100, padx=5)
     progress_speed = ttk.Progressbar(frame_stats, length=200, maximum=255)
     progress_speed.grid(row=700, column=200)
-    
+    #i tried to make a button to randomly bring a pokemon but the button would not apear
     def random_button():
         button_inf = ttk.Button(frame_info, text='Random Stat', command=random_button)
         button_inf.grid(row=1,column=1)
