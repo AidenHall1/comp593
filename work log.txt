@@ -1,0 +1,55 @@
+# Final  project 
+ comp 593 
+
+
+ March 22
+
+6pm
+key for api is c2cG20l26AVmNCDIlicgjF4Ku3F0LMbmIJjRA5HM
+get request to the url
+status update if it worked or failed
+6:46 got frustrated and started to work on creating he image data base
+created db table
+7:34 made a bd path and a table, next task is get the info to put inot the data base. 
+
+March 24
+9pm
+started to work on get_apod_INFO
+Setted up the url and plused the date so it would connect to that url of teh picture of that day
+settetd up the params to connect to the site
+pulled the info and putted into a dictonary
+
+
+April 21st 5pm 
+Starting to work on download apod image 
+this part is very simular to what we did in lab 9, 
+I used lab 9 as an example and tweaked a few prameters an
+6;:30pm
+started to work on save image file, Now i looked on stack over of how to 
+save images and the urllib methond seemed to be most common way, my issue was 
+that they hard coded the url before to downlaod the image so I am hoping that the image_msg well be engought for it 
+to acsess it then put in the image path
+
+
+April 22nd 
+6pm
+Started to work on add image to data base, I went back to lab 3 and four for guidence
+i just connected the the data base then I intered all the varibles into the database
+then executed it
+
+Started to work on imag ealready in the data base, I started to connect to the data base then I 
+did a select satemnt to match the sha256 of images to see if they are same. 
+If it is it returns true and it return sthe fetched data
+
+April 24th 
+ 8pm 
+
+ Started to work set desktop image
+
+ This is the code that makes no sense but just works, so I went to lab 9 for reffernece of how to do it.
+ All I changed on the code was the path of the image. 
+
+ 
+
+
+
